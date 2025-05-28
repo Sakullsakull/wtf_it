@@ -3,6 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <title>wtf_it</title>
+ 
+  <!-- Content Security Policy: block externe Skripte -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; object-src 'none';">
+
+  <!-- MIME-Sniffing verhindern -->
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+
+  <!-- Referrer Policy -->
+  <meta name="referrer" content="no-referrer">
+
+  <!-- Frame-Embedding verhindern -->
+  <meta http-equiv="X-Frame-Options" content="DENY">
+
+
   <style>
     body {
       font-family: Courier New, sans-serif;
